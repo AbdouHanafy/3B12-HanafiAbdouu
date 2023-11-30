@@ -1,0 +1,184 @@
+/* Styles globaux */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  h2 {
+    color: #333333; 
+  }
+  
+  a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles spécifiques à la section */
+  section {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Styles pour les paragraphes */
+  p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Styles pour les tables */
+  table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #0077b5; 
+    color: white; 
+    text-align: center;
+  }
+  
+  /* Styles pour les images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+  }
+  /* Styles pour la barre de navigation */
+nav {
+    background-color: #0077b5; /* Couleur d'arrière-plan de la barre de navigation */
+  }
+  
+  ul {
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+  }
+  
+  a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none;
+    padding: 10px; /* Espacement interne des liens */
+    border-radius: 5px; /* Bords arrondis des liens */
+    transition: background-color 0.3s ease; /* Transition de la couleur d'arrière-plan lors du survol */
+  }
+  
+  a:hover {
+    background-color: #005685; /* Couleur d'arrière-plan au survol */
+  }
+  
+  /* Styles spécifiques à la page d'expérience */
+  #experience {
+    text-align: center;
+  }
+  
+  #experience h2,
+  #experience h4 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #experience div,
+  #experience img {
+    margin-bottom: 20px;
+  }
+  
+  #experience h5,
+  #experience h6 {
+    color: #555;
+  }
+  
+  #experience a,
+  #projets a,
+  #contact a {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #experience a:hover,
+  #projets a:hover,
+  #contact a:hover {
+    background-color: #005685;
+  }
+  
+  /* Styles spécifiques à la page de parcours */
+  #Parcours div {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #Parcours img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  /* Styles spécifiques à la page de projets */
+  #projets {
+    text-align: center;
+  }
+  
+  #projets h2,
+  #projets th {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #projets table,
+  #projets img {
+    margin-bottom: 20px;
+  }
+  
+  #projets th {
+    background-color: #0077b5;
+    color: white;
+    text-align: center;
+  }
+  
+  #contact {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #contact img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+  }
