@@ -1,4 +1,4 @@
-/* Styles globaux */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -21,19 +21,19 @@ body, h1, h2, h3, p, ul, li {
     text-decoration: underline;
   }
   
-  /* Styles spécifiques à la section */
+ 
   section {
     margin: 20px;
     text-align: center;
   }
   
-  /* Styles pour les paragraphes */
+ 
   p {
     margin-bottom: 15px;
     line-height: 1.5;
   }
   
-  /* Styles pour les tables */
+
   table {
     width: 100%;
     margin-bottom: 20px;
@@ -51,20 +51,20 @@ body, h1, h2, h3, p, ul, li {
     text-align: center;
   }
   
-  /* Styles pour les images */
+
   img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px auto; 
   }
-  /* Styles pour la barre de navigation */
+
 nav {
-    background-color: #0077b5; /* Couleur d'arrière-plan de la barre de navigation */
+    background-color: #0077b5; 
   }
   
   ul {
-    list-style: none; /* Supprime les puces de la liste */
+    list-style: none; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -72,22 +72,22 @@ nav {
   }
   
   li {
-    margin-right: 20px; /* Espacement entre les éléments de la liste */
+    margin-right: 20px;
   }
   
   a {
-    color: white; /* Couleur du texte des liens */
+    color: white;
     text-decoration: none;
-    padding: 10px; /* Espacement interne des liens */
-    border-radius: 5px; /* Bords arrondis des liens */
-    transition: background-color 0.3s ease; /* Transition de la couleur d'arrière-plan lors du survol */
+    padding: 10px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
   }
   
   a:hover {
-    background-color: #005685; /* Couleur d'arrière-plan au survol */
+    background-color: #005685; 
   }
   
-  /* Styles spécifiques à la page d'expérience */
+
   #experience {
     text-align: center;
   }
@@ -125,7 +125,7 @@ nav {
     background-color: #005685;
   }
   
-  /* Styles spécifiques à la page de parcours */
+
   #Parcours div {
     border: 1px solid #ddd;
     padding: 15px;
@@ -137,7 +137,7 @@ nav {
     height: auto;
   }
   
-  /* Styles spécifiques à la page de projets */
+
   #projets {
     text-align: center;
   }
