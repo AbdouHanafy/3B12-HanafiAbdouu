@@ -1,114 +1,108 @@
+body, h1, h2, h3, p, ul, li{
+  margin: 0;
+  padding: 0;
+}
 
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif; 
-  }
-  
-  h2 {
-    color: #333333; 
-  }
-  
-  a {
-    color: #0077b5;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
- 
-  section {
-    margin: 20px;
-    text-align: center;
-  }
-  
- 
-  p {
-    margin-bottom: 15px;
-    line-height: 1.5;
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+}
 
-  table {
-    width: 100%;
-    margin-bottom: 20px;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #0077b5; 
-    color: white; 
-    text-align: center;
-  }
-  
+h2 {
+  color: #2c3e50; 
+}
 
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto; 
-  }
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #95a5a6; /* Light gray */
+}
+
+th {
+  background-color: #3498db; /* Blue */
+  color: #ecf0f1; /* Light gray */
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
 
 nav {
-    background-color: #0077b5; 
-  }
-  
-  ul {
-    list-style: none; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  li {
-    margin-right: 20px;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-    padding: 10px; 
-    border-radius: 5px;
-    transition: background-color 0.3s ease; 
-  }
-  
-  a:hover {
-    background-color: #005685; 
-  }
-  
+  background-color: #3498db; /* Blue */
+}
 
-  #experience {
-    text-align: center;
-  }
-  
-  #experience h2,
-  #experience h4 {
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #experience div,
-  #experience img {
-    margin-bottom: 20px;
-  }
-  
-  #experience h5,
-  #experience h6 {
-    color: #555;
-  }
-  
-  #experience a,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 20px;
+}
+
+#experience {
+  text-align: center;
+  background-color: #f9f9f9; /* Light gray */
+  padding: 40px;
+}
+
+#experience h2,
+#experience h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#experience div,
+#experience img {
+  margin-bottom: 20px;
+}
+
+#experience h5,
+#experience h6 {
+  color: #555;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+a:hover {
+  background-color: #005685; 
+}
+
+#experience a,
   #projets a,
   #contact a {
     display: inline-block;
@@ -126,60 +120,64 @@ nav {
   }
   
 
-  #Parcours div {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
-  }
-  
-  #Parcours img {
-    max-width: 50%;
-    height: auto;
-  }
-  
+#Parcours div {
+  border: 1px solid #95a5a6; /* Light gray */
+  padding: 15px;
+  margin-bottom: 15px;
+}
 
-  #projets {
-    text-align: center;
-  }
-  
-  #projets h2,
-  #projets th {
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #projets table,
-  #projets img {
-    margin-bottom: 20px;
-  }
-  
-  #projets th {
-    background-color: #0077b5;
-    color: white;
-    text-align: center;
-  }
-  
-  #contact {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  #contact img {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-  }
-  
-  #contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  #contact form input,
-  #contact form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 100%;
-  }
+#Parcours img {
+  max-width: 50%;
+  height: auto;
+}
+
+#projets {
+  text-align: center;
+  background-color: #f9f9f9; /* Light gray */
+  padding: 40px;
+}
+
+#projets h2,
+#projets th {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#projets table,
+#projets img {
+  margin-bottom: 20px;
+}
+
+#projets th {
+  background-color: #3498db; /* Blue */
+  color: #ecf0f1; /* Light gray */
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  background-color: #2ecc71; /* Green */
+  padding: 40px;
+  color: #fff; /* White text */
+}
+
+#contact img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact form input,
+#contact form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  color: #333; /* Dark gray text */
+}
